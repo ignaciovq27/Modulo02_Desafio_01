@@ -1,0 +1,241 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+}
+
+.flex-item {
+    /* border: solid 1px black; */
+    text-align: center;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+
+.user-profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-right: solid 2px rgb(194, 194, 194);
+    border-left: solid 2px rgb(194, 194, 194);
+}
+
+.user-profile ul {
+    list-style: none;
+    align-items: center;
+}
+
+.menu-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-left ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.menu-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-right ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.user-status {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.user-status p {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.user-status h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.contacts {
+    /* flex-basis: 30%; */
+    flex: 0 0 20%;
+    min-height: 100vh;
+    justify-content: center;
+    background-color: white;
+        flex-wrap: nowrap;
+
+}
+
+.chat {
+    /* flex-basis: 70%;*/
+    min-height: 100vh;
+    /* background-color: rgb(247, 247, 247); */
+}
+
+.chat-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.chat-container h1 {
+    font-size: 4em;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,'Open Sans';
+}
+
+.chat-container p {
+    font-size: 1.5em;
+    width: 45%;
+}
+
+.chat-img {
+    width: 20rem;
+    border-radius: 15px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.img-user {
+    width: 3rem;
+    border-radius: 100%;
+}
+
+
+.img-contact {
+    width: 4rem;
+    border-radius: 100%;
+}
+
+.user-contact{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    border-right: solid 2px rgb(194, 194, 194);
+    border-left: solid 2px rgb(194, 194, 194);
+    border-top: solid 2px rgb(194, 194, 194);
+    /* border-bottom: solid 2px rgb(194, 194, 194); */
+}
+
+
+.flex-contacts {
+    display: flex;
+}
+
+.new-chat {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-top: solid 2px rgb(194, 194, 194);
+    border-right: solid 2px rgb(194, 194, 194);
+    border-left: solid 2px rgb(194, 194, 194);
+    height: 10em;
+}
+
+.new-chat button {
+    color: white;
+    background-color: #A491D2;
+    width: 13em;
+    height: 4em;
+    font-size: 1.4em;
+    border: 0;
+}
+
+button:hover {
+    background-color: #CDC3E6;
+}
+
+button:focus {
+    background-color: #BEC1BB;
+}
+
+.contact-profile {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    padding: 0;
+
+}
+
+.contact-profile ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.contact-info {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-basis: 100%;
+    
+}
+
+.contact-info ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-status {
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact-status p {
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.contact-status h4 {
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    flex-grow: 1;
+}
+
+.fa-style {
+    color: rgb(167, 167, 167);
+  }
+  
